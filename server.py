@@ -61,13 +61,13 @@ class Server:
                         message = message + data
                 except Exception as e:
                     # error 10035
-                    print "recv data exception:", e
+                    print "receiver data:", e
                 if message:
                     self.handle_message(conn, address, message)
                     conn.send("SUCCEED")
                 conn.close()
             except Exception as e:
-                print "accept timeout", e
+                print "accept:", e
         print "socket: shutdown", self.startFlag
 
 
