@@ -50,10 +50,24 @@ class Server:
         print "socket: accept", thread_id, delay
         while self.startFlag:
             print "socket: accept", self.startFlag
-            conn, address = self.s.accept()
-            message = conn.recv(1024)
-            self.handle_message(conn, address, message)
-            conn.close()
+            try:
+                conn, address = self.s.accept()
+                message = None
+                try:
+                    message = conn.recv(1024)
+                    data = message
+                    while data:
+                        data = conn.recv(1024)
+                        message = message + data
+                except Exception as e:
+                    # error 10035
+                    print "recv data exception:", e
+                if message:
+                    self.handle_message(conn, address, message)
+                    conn.send("SUCCEED")
+                conn.close()
+            except Exception as e:
+                print "accept timeout", e
         print "socket: shutdown", self.startFlag
 
 

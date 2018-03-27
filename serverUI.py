@@ -4,6 +4,7 @@
 
 from Tkinter import *
 from server import *
+from ScrolledText import ScrolledText
 
 STR_SERVER_START = "点击启动服务"
 STR_SERVER_STOP = "点击终止服务"
@@ -38,23 +39,26 @@ def stop_server_thread():
 
 def show_message(message):
     infoText.insert(END, message)
+    infoText.see(END)
 
 
 server = Server(show_message)
 root = Tk()
 root.geometry('800x800')
 root.resizable(width='false', height='false')
+root.title("日志系统服务端")
 
 infoLabel1 = Label(root, text="消息提示：")
 infoLabel1.grid(row=0, column=0, padx=10, pady=10, sticky=W)
 
 serverButton = Button(root, text=STR_SERVER_START, command=server_button_clicked)
-serverButton.grid(row=0, column=1, padx=10, pady=10, sticky=E)
+# serverButton.grid(row=0, column=1, padx=10, pady=10, sticky=E)
 
 serverInfoLabel = Label(root)
 serverInfoLabel.grid(row=0, column=0, padx=10, pady=10, sticky=E)
 
-infoText = Text(root, bg='gray', width=100, height=30)
+infoText = ScrolledText(root, bg='gray', width=100, height=30)
 infoText.grid(row=1, columnspan=2, padx=10, pady=10)
 
+start_server_thread()
 root.mainloop()
