@@ -3,6 +3,7 @@
 # @date: 2018-03-27
 
 from Tkinter import *
+from ttk import *
 from tkMessageBox import *
 from server import *
 from ScrolledText import ScrolledText
@@ -10,101 +11,107 @@ from support import *
 
 STR_SERVER_START = "点击启动服务"
 STR_SERVER_STOP = "点击终止服务"
-ServerState = False
-
 
 def _server_button_clicked():
-    global ServerState
-    ServerState = ~ServerState
-    print_log("ServerState", ServerState)
-    if ServerState:
+    global _buttonState
+    _buttonState = ~_buttonState
+    print_log("_buttonState", _buttonState)
+    if _buttonState:
         _start_server_thread()
     else:
         _stop_server_thread()
 
 
 def _start_server_thread():
-    print_log("_start_server_thread", ServerState)
-    global server
-    if server.bind():
-        serverButton.config(text=STR_SERVER_STOP)
-        serverInfoLabel.config(text="服务创建成功...")
+    print_log("_start_server_thread", _buttonState)
+    global _server
+    global _serverButton,  _serverInfoLabel
+    if _server.bind():
+        _serverButton.config(text=STR_SERVER_STOP)
+        _serverInfoLabel.config(text="服务创建成功...")
     else:
-        serverInfoLabel.config(text="服务创建失败...")
+        _serverInfoLabel.config(text="服务创建失败...")
 
 
 def _stop_server_thread():
-    print_log("_stop_server_thread", ServerState)
-    global server
-    if server.destroy():
-        serverButton.config(text=STR_SERVER_START)
-        serverInfoLabel.config(text="服务已终止！")
+    print_log("_stop_server_thread", _buttonState)
+    global _server
+    global _serverButton, _serverInfoLabel
+    if _server.destroy():
+        _serverButton.config(text=STR_SERVER_START)
+        _serverInfoLabel.config(text="服务已终止！")
 
 
 def server_callback(*args):
     print_log("serverUI: callback", args)
     if args[0] == "message":
-        return _show_message(args[1])
+        return _show_message(message=args[1])
     elif args[0] == "alert":
-        return _show_alert(args[1], args[2])
+        return _show_alert(head=args[1], meg=args[2])
     elif args[0] == "option":
-        return _call_func(args[1])
+        return _call_func(option=args[1], args=args[2])
     return None
 
 
-def _show_message(message):
-    infoText.insert(END, message)
-    infoText.see(END)
+def _show_message(message=None):
+    global _infoText
+    if message:
+        _infoText.config(state=NORMAL)
+        _infoText.insert(END, message)
+        _infoText.see(END)
+        _infoText.config(state=DISABLED)
 
-def _show_alert(tl=None, meg=None):
-    return showwarning(title=tl, message=meg)
 
-def _call_func(option):
+def _show_alert(head=None, meg=None):
+    return showwarning(title=head, message=meg)
+
+
+def _show_address(ip=None, port=None):
+    address = None
+    if ip:
+        address = "IP: %s" % ip
+        # if port:
+        #     address = address + ":%s" % port
+        _serverIpLabel.config(text=address)
+
+
+def _call_func(option=None, args=()):
     if option == "exit":
         _exit_out()
+    elif option == "show_ip":
+        _show_address(ip=args[0], port=args[1])
+
 
 def _exit_out():
-    _stop_server_thread()
     global _root
+    _stop_server_thread()
     _root.destroy()
     exit(0)
 
 
-def get_screen_size(window):
-    return window.winfo_screenwidth(), window.winfo_screenheight()
+if __name__ == '__main__':
+    _buttonState = False
+    _root = Tk()
+    _root.resizable(width='false', height='false')
+    _root.title("日志系统服务端")
+    _root.protocol('WM_DELETE_WINDOW', _exit_out)
+    center_window(_root, 800, 600)
 
+    _infoLabel1 = Label(_root, text="消息提示：", font=font_yh(size=12))
+    _infoLabel1.grid(row=0, column=0, padx=10, pady=10, sticky=W)
 
-def get_window_size(window):
-    return window.winfo_reqwidth(), window.winfo_reqheight()
+    _serverButton = Button(_root, text=STR_SERVER_START, command=_server_button_clicked)
+    # _serverButton.grid(row=0, column=1, padx=10, pady=10, sticky=E)
 
+    _serverInfoLabel = Label(_root, font=font(size=11))
+    _serverInfoLabel.grid(row=0, column=0, padx=10, pady=10, sticky=E)
 
-def _center_window(_root, width, height):
-    screenwidth = _root.winfo_screenwidth()
-    screenheight = _root.winfo_screenheight()
-    size = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
-    print_log(size)
-    _root.geometry(size)
+    _serverIpLabel = Label(_root, font=font(size=11))
+    _serverIpLabel.grid(row=0, column=1, padx=10, pady=10, sticky=W)
 
+    _infoText = ScrolledText(_root, bg='white', width=100, height=30, state=DISABLED)
+    _infoText.grid(row=1, columnspan=2, padx=10, pady=10)
 
-_root = Tk()
-_root.resizable(width='false', height='false')
-_root.title("日志系统服务端")
-_root.protocol('WM_DELETE_WINDOW', _exit_out)
-_center_window(_root, 800, 600)
-
-infoLabel1 = Label(_root, text="消息提示：")
-infoLabel1.grid(row=0, column=0, padx=10, pady=10, sticky=W)
-
-serverButton = Button(_root, text=STR_SERVER_START, command=_server_button_clicked)
-# serverButton.grid(row=0, column=1, padx=10, pady=10, sticky=E)
-
-serverInfoLabel = Label(_root)
-serverInfoLabel.grid(row=0, column=0, padx=10, pady=10, sticky=E)
-
-infoText = ScrolledText(_root, bg='gray', width=100, height=30)
-infoText.grid(row=1, columnspan=2, padx=10, pady=10)
-
-server = Server(server_callback)
-_start_server_thread()
-_root.mainloop()
-
+    _server = Server(server_callback)
+    _start_server_thread()
+    _root.mainloop()

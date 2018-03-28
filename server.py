@@ -3,6 +3,7 @@
 # @date: 2018-03-27
 
 import socket
+import pickle
 # import thread
 from threading import Thread
 from simpleThreadPool import WorkThread
@@ -10,12 +11,13 @@ from support import *
 
 
 class Server:
-    def __init__(self, callback):
+    def __init__(self, callback=None):
         self.s = None
         self.host = socket.gethostname()
         self.port = 7777
         self.startFlag = False
         self.callback = callback
+
 
     def destroy(self):
         try:
@@ -23,7 +25,7 @@ class Server:
             self.startFlag = False
             return True
         except Exception as e:
-            print "destroy exception: ", e
+            print "Server: destroy exception: ", e
             return False
 
 
@@ -35,6 +37,8 @@ class Server:
         try:
             self.s.bind((self.host, self.port))
             self.s.listen(5)
+            print_log("Server: socket bind ip:", self.s.getsockname())
+            self.callback("option", "show_ip", self.s.getsockname())
         except Exception as e:
             print_log("Server: socket bind exception", e)
             if self.callback:
@@ -43,19 +47,20 @@ class Server:
                 return None
         self.startFlag = True
         try:
-            accept_td = WorkThread(thread_id=1, thread_name="socket_accept", execute=self.accept)
+            accept_td = WorkThread(thread_id=1, thread_name="socket_accept", execute=self._accept)
             accept_td.start()
-            # thread.start_new_thread(self.accept, ("socket.accept_thread", 1))
-            # self.accept("accept", 1)
+            # thread.start_new_thread(self._accept, ("socket.accept_thread", 1))
+            # self._accept("_accept", 1)
             return True
         except Exception as e:
-            print "Server: socket start accept thread exception", e
+            print "Server: socket start _accept thread exception", e
 
             return False
 
-    def accept(self):
+
+    def _accept(self):
         while self.startFlag:
-            print_log("socket: accept", self.startFlag)
+            print_log("socket: _accept", self.startFlag)
             try:
                 conn, address = self.s.accept()
                 message = None
@@ -69,14 +74,17 @@ class Server:
                     # error 10035
                     print_log("receiver data:", e)
                 if message:
-                    self.handle_message(conn, address, message)
+                    # 反序列化数据
+                    string_message = pickle.loads(message)
+                    self._handle_message(conn, address, string_message)
                     conn.send("SUCCEED")
                 conn.close()
             except Exception as e:
-                print_log("accept:", e)
-        print_log("socket: accept finish: flag=", self.startFlag)
+                print_log("_accept:", e)
 
-    def handle_message(self, conn, address, message):
-        print "socket: handle_message ", conn, address, message
+
+    def _handle_message(self, conn, address, message):
+        print_log("Server: socket _handle_message ", conn, address, message)
         if self.callback:
             self.callback("message", "来自客户端：%s的消息：%s" % (address, message))
+

@@ -2,6 +2,7 @@
   <dictionary name="applex">
     <words>
       <w>applex</w>
+      <w>textvariable</w>
     </words>
   </dictionary>
 </component>
