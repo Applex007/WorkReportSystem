@@ -373,6 +373,7 @@ if __name__ == '__main__':
     _root.resizable(width='false', height='false')
     _root.title("日志系统客户端")
     _root.protocol('WM_DELETE_WINDOW', _exit_out)
+    _root.iconbitmap('logo.ico')
     center_window(_root, 800, 800)
 
     _check_input = _root.register(_handle_input)  # 需要将函数包装一下，必要的
