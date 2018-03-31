@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4af3b88-8b5b-44b5-884f-de20956ac17c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/clientUI.spec" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/serverUI.spec" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/clientUI.py" afterPath="$PROJECT_DIR$/clientUI.py" />
-      <change beforePath="$PROJECT_DIR$/serverUI.py" afterPath="$PROJECT_DIR$/serverUI.py" />
-    </list>
+    <list default="true" id="e4af3b88-8b5b-44b5-884f-de20956ac17c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -477,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522523444668</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="use pyinstaller create serverUI.exe and clientUI.exe">
+      <created>1522526231253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522526231253</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,7 +558,8 @@
     <MESSAGE value="1.send and receive&#10;2.cache user,report on client&#10;3.cache receive report on server" />
     <MESSAGE value="1.finish excel export&#10;2.some others little modifies&#10;first close version, yeah~" />
     <MESSAGE value="1.set window ico" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.set window ico" />
+    <MESSAGE value="use pyinstaller create serverUI.exe and clientUI.exe" />
+    <option name="LAST_COMMIT_MESSAGE" value="use pyinstaller create serverUI.exe and clientUI.exe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
