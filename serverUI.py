@@ -2,6 +2,8 @@
 # @auth: applex
 # @date: 2018-03-27
 
+import base64
+from logo import img
 from Tkinter import *
 from ttk import *
 from tkMessageBox import *
@@ -112,7 +114,10 @@ if __name__ == '__main__':
     _root.resizable(width='false', height='false')
     _root.title("日志系统服务端")
     _root.protocol('WM_DELETE_WINDOW', _exit_out)
-    _root.iconbitmap('logo.ico')
+    with open("tmp.ico", "wb") as tmp:
+        tmp.write(base64.b64decode(img))
+    _root.iconbitmap('tmp.ico')
+    os.remove("tmp.ico")
     center_window(_root, 800, 600)
 
     _infoLabel1 = Label(_root, text="消息提示：", font=font_yh(size=12))

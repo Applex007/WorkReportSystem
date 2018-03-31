@@ -2,1336 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4af3b88-8b5b-44b5-884f-de20956ac17c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/logo.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/entry_points.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller-3.3.1.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/__main__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/archive/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/archive/pyz_crypto.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/archive/readers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/archive/writers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/run" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/run_d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/runw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/runw_d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Linux-32bit/run" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Linux-32bit/run_d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Linux-64bit/run" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Linux-64bit/run_d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/run.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/run_d.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/runw.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/runw_d.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/run.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/run_d.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/runw.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/runw_d.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/github_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-console.icns" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-console.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-console.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.icns" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/build_main.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/datastruct.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/imphook.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/imphookapi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/makespec.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/osx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/templates.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/toc_conversion.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/building/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/compat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/config.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/configure.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/depend/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/depend/analysis.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/depend/bindepend.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/depend/dylib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/depend/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/fake-modules/site.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-Cryptodome.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-IPython.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-OpenGL.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-OpenGL_accelerate.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PIL.Image.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PIL.SpiderImagePlugin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PIL.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qt3Support.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtAssistant.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtCore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtGui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtHelp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtNetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtOpenGL.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtScript.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtSql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtSvg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtWebKit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtXml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qwt5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.phonon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.uic.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.Qt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtCore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtGui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtHelp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtMultimedia.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtNetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtOpenGL.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtPrintSupport.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQuick.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQuickWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtScript.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSensors.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSerialPort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSvg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebEngineWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebKit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebKitWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtXml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.Qwt5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.uic.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide.QtCore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide.QtGui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtCore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtGui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtHelp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtMultimedia.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtNetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtOpenGL.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtPrintSupport.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQuick.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQuickWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtScript.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSensors.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSerialPort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSvg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebEngineWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebKit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebKitWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWidgets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtXml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.Qwt5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-PySide2.uic.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-Xlib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-_mssql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-_mysql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-_tkinter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-accessible_output2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-adios.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-amazonproduct.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-appdirs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-appy.pod.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-astroid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-babel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-bacon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-boto.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-boto3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-botocore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-certifi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-clr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-countrycode.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-cryptography.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-cv2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-cx_Oracle.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-dclab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-distorm3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-distutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.contrib.sessions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.core.cache.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.core.mail.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.core.management.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.mysql.base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.oracle.base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-django.template.loaders.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-dns.rdata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-docutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-enchant.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-encodings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gadfly.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gevent.monkey.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Atk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GIRepository.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GLib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GModule.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GObject.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gdk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GdkPixbuf.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gst.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstAudio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstBase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstPbutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstTag.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstVideo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gtk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Pango.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.PangoCairo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.cairo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-google.cloud.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-google.cloud.storage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gst._gst.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-gtk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-h5py.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-httplib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-httplib2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-idlelib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-imageio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-jinja2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-jira.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-jsonschema.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-keyring.backends.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-kinterbasdb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-kivy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-langcodes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-lensfunpy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-lib2to3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-libaudioverse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-llvmlite.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-logilab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-lxml.etree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-lxml.isoschematron.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-lxml.objectify.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-mako.codegen.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-markdown.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.backends.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.numerix.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-mpl_toolkits.basemap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-nacl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-names.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-ncclient.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-netCDF4.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-numba.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-numpy.core.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-openpyxl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-osgeo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-paste.exceptions.reporter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-patsy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pint.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pkg_resources.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-psychopy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-psycopg2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pubsub.core.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pycountry.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pycparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pydoc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pyexcelerate.Writer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pygame.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pygments.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pylint.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pymssql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pyodbc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pyopencl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pyproj.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pytest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pythoncom.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pyttsx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pytz.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-pywintypes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-qtawesome.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-raven.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-rawpy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-redmine.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-regex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-reportlab.lib.utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-reportlab.pdfbase._fontdata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-requests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scapy.layers.all.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scipy.io.matlab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scipy.linalg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scipy.sparse.csgraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scipy.special._ellip_harm_2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-scipy.special._ufuncs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-selenium.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-setuptools.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-shapely.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-shelve.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-skimage.transform.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sklearn.metrics.cluster.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sound_lib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-speech_recognition.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sphinx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sqlalchemy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sqlite3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-storm.database.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-sysconfig.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-tables.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-u1db.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-unidecode.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-uniseg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-usb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-vtkpython.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-weasyprint.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-win32com.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-wx.lib.activex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-wx.lib.pubsub.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-wx.xrc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xml.dom.domreg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xml.dom.html.HTMLDocument.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xml.etree.cElementTree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xml.sax.saxexts.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-xsge_gui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-zeep.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/hook-zmq.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt4.uic.port_v2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt4.uic.port_v3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt5.uic.port_v2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt5.uic.port_v3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-distutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-site.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-_xmlplus.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Atk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GIRepository.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GLib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GModule.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GObject.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gdk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GdkPixbuf.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gst.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstAudio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstBase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstPbutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstTag.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstVideo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gtk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Pango.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.PangoCairo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.cairo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-requests.packages.urllib3.packages.six.moves.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-six.moves.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-urllib3.packages.six.moves.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-win32com.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/README.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/Dot.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/Graph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/GraphAlgo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/GraphStat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/GraphUtil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/ObjectGraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/altgraph/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/__main__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/_compat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/find_modules.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/modulegraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/lib/modulegraph/zipio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/pyimod01_os_path.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/pyimod02_archive.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/pyimod03_importers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__tkinter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_django.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_enchant.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gdkpixbuf.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_glib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gstreamer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gtk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_kivy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_mplconfig.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_mpldata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_osgeo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_pkgres.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5webengine.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_traitlets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_twisted.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_usb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_win32comgenpy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/log.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/_gitrevision.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/archive_viewer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/bindepend.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/grab_version.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/makespec.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/cliutils/set_version.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/git.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/django.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/gi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/qt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/subproc/README" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/subproc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/subproc/django_import_finder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/hooks/win32.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/misc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/osx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/release.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/icon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/versioninfo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/winmanifest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/winresource.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyInstaller/utils/win32/winutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PyWin32.chm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_dummy_thread/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_markupbase/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_thread/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/ado_consts.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/adodbapi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/examples/db_print.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/examples/db_table_names.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/examples/xls_read.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/examples/xls_write.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/is64bit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/schema_table.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/adodbapitest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/adodbapitestconfig.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/dbapi20.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/is64bit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/setuptestframework.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/test_adodbapi_dbapi20.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/tryconnection2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/adodbapi/test/tryconnection3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph-0.15.dist-info/zip-safe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/Dot.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/Graph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/GraphAlgo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/GraphStat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/GraphUtil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/ObjectGraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/altgraph/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/builtins/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/copyreg/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3-0.1.2.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dis3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/entry_points.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future-0.16.0.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/_markupbase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/datetime.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/_encoded_words.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/_header_value_parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/_parseaddr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/_policybase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/base64mime.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/charset.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/encoders.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/errors.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/feedparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/generator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/header.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/headerregistry.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/iterators.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/message.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/application.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/audio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/image.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/message.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/multipart.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/nonmultipart.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/mime/text.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/policy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/quoprimime.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/email/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/html/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/html/entities.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/html/parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/http/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/http/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/http/cookiejar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/http/cookies.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/http/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/misc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/socket.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/socketserver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/badcert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/badkey.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/dh512.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/https_svn_python_org_root.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/keycert.passwd.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/keycert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/keycert2.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/nokia.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/nullbytecert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/nullcert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/pystone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/sha256.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/ssl_cert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/ssl_key.passwd.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/ssl_key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/ssl_servers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/test/support.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/total_ordering.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/error.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/parse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/request.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/response.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/urllib/robotparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/xmlrpc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/xmlrpc/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/backports/xmlrpc/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/disabled.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/iterators.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/misc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/newnext.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/newround.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/builtins/newsuper.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/_dummy_thread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/_markupbase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/_thread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/builtins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/collections.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/configparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/copyreg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/dbm/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/dbm/dumb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/dbm/gnu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/dbm/ndbm.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/html/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/html/entities.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/html/parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/http/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/http/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/http/cookiejar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/http/cookies.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/http/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/itertools.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/pickle.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/queue.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/reprlib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/socketserver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/subprocess.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/sys.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/test/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/test/support.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/colorchooser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/commondialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/constants.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/dnd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/filedialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/font.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/messagebox.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/scrolledtext.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/simpledialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/tix.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/tkinter/ttk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/error.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/parse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/request.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/response.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/urllib/robotparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/winreg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/xmlrpc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/xmlrpc/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/moves/xmlrpc/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/standard_library/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/tests/base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newbytes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newdict.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newint.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newlist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newmemoryview.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newobject.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newopen.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newrange.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/types/newstr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/future/utils/surrogateescape.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/html/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/html/entities.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/html/parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/http/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/http/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/http/cookiejar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/http/cookies.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/http/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/PyISAPI_loader.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/doc/isapi.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/install.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/isapicon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/advanced.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/redirector.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/redirector_asynch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/redirector_with_filter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/samples/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/simple.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/test/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/test/extension_simple.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/isapi/threaded_extension.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixer_util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_UserDict.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_absolute_import.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_add__future__imports_except_unicode_literals.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_basestring.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_bytes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_cmp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_division.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_division_safe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_execfile.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_future_builtins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_future_standard_library.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_metaclass.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_next_call.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_object.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_oldstr_wrap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_order___future__imports.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_print.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_print_with_import.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_raise.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_remove_old__future__imports.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_unicode_keep_u.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_unicode_literals_import.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/fixes/fix_xrange_with_import.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libfuturize/main.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/feature_base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_add_all__future__imports.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_add_all_future_builtins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_add_future_standard_library_import.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_annotations.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_division.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_features.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_fullargspec.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_future_builtins.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_getcwd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_imports.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_imports2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_kwargs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_memoryview.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_metaclass.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_newstyle.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_next.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_printfunction.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_raise.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_raise_.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_throw.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/fixes/fix_unpacking.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/libpasteurize/main.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/entry_points.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib-1.9.dist-info/zip-safe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/MachO.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/MachOGraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/MachOStandalone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/SymbolTable.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/__main__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/_cmdline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/dyld.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/dylib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/framework.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/itergraphreport.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/mach_o.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/macho_dump.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/macho_find.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/macho_standalone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/ptypes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/macholib/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ordlookup/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ordlookup/oleaut32.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ordlookup/ws2_32.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/builtins/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/builtins/misc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/builtins/noniterators.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/translation/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/types/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/types/basestring.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/types/olddict.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/types/oldstr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/past/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile-2017.11.5.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pefile.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/peutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pypiwin32-223.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythoncom.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/Microsoft.VC90.MFC.manifest" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/Pythonwin.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/dde.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/mfc90.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/mfc90u.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/mfcm90.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/mfcm90u.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/basictimerapp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/customprint.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/demoutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/dlgappdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/dojobapp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/app/helloapp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/cmdserver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/createwin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/demoutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/dibdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/dlgtest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/dyndlg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/fontdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/guidemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/hiertest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/menutest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/objdoc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/demoutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/flash.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/msoffice.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/ocxserialtest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/ocxtest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/webbrowser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/openGLDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/progressbar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/sliderdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/splittst.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/threadedgui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/Demos/toolbar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/IDLE.cfg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/configui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/dbgcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/dbgpyapp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/debugger.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/debugger/fail.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/default.cfg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/dialogs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/dialogs/ideoptions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/dialogs/list.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/dialogs/login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/dialogs/status.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/docking/DockingBar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/docking/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/app.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/bitmap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/cmdline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/dbgcommands.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/dlgappcore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/ModuleBrowser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/color/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/color/coloreditor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/configui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/document.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/editor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/frame.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/template.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/editor/vss.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/help.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/interact.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/intpyapp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/intpydde.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/mdi_pychecker.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/scriptutils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/sgrepmdi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/startup.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/stdin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/toolmenu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/window.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/framework/winout.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/AutoExpand.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/AutoIndent.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/CallTips.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/FormatParagraph.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/IdleHistory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/PyParse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/idle/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/activex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/afxres.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/docview.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/object.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/thread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/mfc/window.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/IDLEenvironment.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/bindings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/config.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/configui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/control.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/document.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/find.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/formatter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/keycodes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/scintillacon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/scintilla/view.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/TraceCollector.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/browseProjects.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/browser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/hierlist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/regedit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/pywin/tools/regpy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/scintilla.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/win32ui.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pythonwin/win32uiole.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32-223.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32.pth" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32.version.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32_system32/pythoncom27.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32_system32/pythoncomloader27.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pywin32_system32/pywintypes27.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/queue/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/reprlib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/socketserver/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/colorchooser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/commondialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/constants.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/dnd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/filedialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/font.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/messagebox.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/scrolledtext.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/simpledialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/tix.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tkinter/ttk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/BackupRead_BackupWrite.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/BackupSeek_streamheaders.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/CopyFileEx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/CreateFileTransacted_MiniVersion.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/EvtSubscribe_pull.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/EvtSubscribe_push.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/FileSecurityTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/GetSaveFileName.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/NetValidatePasswordPolicy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/OpenEncryptedFileRaw.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/RegCreateKeyTransacted.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/RegRestoreKey.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/SystemParametersInfo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/c_extension/setup.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/cerapi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/dde/ddeclient.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/dde/ddeserver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/desktopmanager.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/eventLogDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/getfilever.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/images/frowny.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/images/smiley.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/mmapfile_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/pipes/cat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/pipes/runproc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/print_desktop.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/rastest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/GetTokenInformation.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/account_rights.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/explicit_entries.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/get_policy_info.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/list_rights.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/localized_names.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/lsaregevent.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/lsastore.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/query_information.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/regsave_sa.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/regsecurity.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/sa_inherit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/security_enums.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/set_file_audit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/set_file_owner.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/set_policy_info.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/setkernelobjectsecurity.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/setnamedsecurityinfo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/setsecurityinfo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/setuserobjectsecurity.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/sspi/fetch_url.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/sspi/simple_auth.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/sspi/socket_server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/security/sspi/validate_password.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/service/nativePipeTestService.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/service/pipeTestService.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/service/pipeTestServiceClient.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/service/serviceEvents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/timer_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32clipboardDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32clipboard_bitmapdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32comport_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32console_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32cred_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32fileDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32gui_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32gui_devicenotify.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32gui_dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32gui_menu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32gui_taskbar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32netdemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32rcparser_demo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32servicedemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32ts_logoff_disconnected.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32wnet/testwnet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/win32wnet/winnetwk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/Demos/winprocess.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/_win32sysloader.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/_winxptheme.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/include/PyWinTypes.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/afxres.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/commctrl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/dbi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/mmsystem.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/netbios.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/ntsecuritycon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/pywin32_testutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/pywintypes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/rasutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/regcheck.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/regutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/sspi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/sspicon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32con.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32cryptcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32evtlogutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32gui_struct.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32inetcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32netcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32pdhquery.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32pdhutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32rcparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32serviceutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32timezone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32traceutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/win32verstamp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/winerror.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/winioctlcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/winnt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/winperf.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/lib/winxptheme.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/libs/pywintypes.lib" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/mmapfile.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/odbc.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/perfmon.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/perfmondata.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/pythonservice.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/ControlService.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/VersionStamp/BrandProject.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/VersionStamp/bulkstamp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/VersionStamp/vssutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/backupEventLog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/ce/pysynch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/killProcName.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/rasutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/regsetup.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/scripts/setup_d.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/servicemanager.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/handles.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_clipboard.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_exceptions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_odbc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_pywintypes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_security.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_sspi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32crypt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32event.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32file.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32gui.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32guistruct.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32inet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32net.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32pipe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32rcparser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32timezone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32trace.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/test_win32wnet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/testall.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/win32rcparser/python.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/win32rcparser/python.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/win32rcparser/test.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/test/win32rcparser/test.rc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/timer.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win2kras.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32api.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32clipboard.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32console.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32cred.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32crypt.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32event.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32evtlog.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32file.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32gui.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32help.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32inet.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32job.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32lz.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32net.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32pdh.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32pipe.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32print.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32process.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32profile.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32ras.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32security.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32service.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32trace.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32transaction.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32ts.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/win32wnet.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32/winxpgui.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/GeneratedSupport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/PythonCOM.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/QuickStartClientCom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/QuickStartServerCom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/docindex.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/BTN_HomePage.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/BTN_ManualTop.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/BTN_NextPage.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/BTN_PrevPage.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/pycom_blowing.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/pythoncom.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/image/www_icon.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/misc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/package.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/HTML/variant.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/License.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/CLSIDToClass.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/build.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/combrowse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/connect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/dynamic.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/gencache.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/genpy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/makepy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/selecttlb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/tlbrowse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/client/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/connect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/dump_clipboard.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/eventsApartmentThreaded.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/eventsFreeThreaded.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/excelAddin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/excelRTDServer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/iebutton.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/ietoolbar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/outlookAddin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/demos/trybag.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/include/PythonCOM.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/include/PythonCOMRegister.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/include/PythonCOMServer.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/libs/axscript.lib" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/libs/pythoncom.lib" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/makegw/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/makegw/makegw.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/makegw/makegwenum.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/makegw/makegwparse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/olectl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/readme.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/connect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/dispatcher.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/exception.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/factory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/localserver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/policy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/register.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/server/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/PythonTools.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/dictionary.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/interp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/perfmon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/test_pycomtest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/storagecon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/GenTestScripts.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/Testpys.sct" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/daodump.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/errorSemantics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/pippo.idl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/pippo_server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/policySemantics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testADOEvents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testAXScript.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testAccess.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testArrays.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testClipboard.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testCollections.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testDCOM.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testDictionary.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testDictionary.vbs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testDynamic.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testExchange.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testExplorer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testGIT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testGatewayAddresses.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testInterp.vbs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testIterators.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testMSOffice.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testMSOfficeEvents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testMarshal.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testNetscape.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testPersist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testPippo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testPyComTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testPyScriptlet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testROT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testServers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testShell.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testStorage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testStreams.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testWMI.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testall.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testmakepy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testvb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testvbscript_regexp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testxslt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testxslt.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/testxslt.xsl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/test/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/universal.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32com/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/adsi.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/adsicon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/demos/objectPicker.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/demos/scp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/demos/search.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/adsi/demos/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/authorization/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/authorization/authorization.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/authorization/demos/EditSecurity.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/authorization/demos/EditServiceSecurity.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axcontrol/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axcontrol/axcontrol.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/adb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/axdebug.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/codecontainer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/contexts.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/debugger.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/documents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/dump.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/expressions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/gateways.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/stackframe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axdebug/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/CreateObject.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/caps.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/interrupt/test.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/interrupt/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/interrupt/test1.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/interrupt/test1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/asp/tut1.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/MarqueeText1.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/calc.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/dbgtest.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/demo.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/demo_check.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/demo_intro.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/demo_menu.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/docwrite.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/foo2.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/form.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/marqueeDemo.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/mousetrack.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/pycom_blowing.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/wsh/blank.pys" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/wsh/excel.pys" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/wsh/registry.pys" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/Demos/client/wsh/test.pys" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/asputil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/axscript.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/debug.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/error.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/framework.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/pydumper.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/pyscript.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/pyscript_rexec.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/client/scriptdispatch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/server/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/server/axsite.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/server/error.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/debugTest.pys" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/debugTest.vbs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/leakTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/testHost.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/axscript/test/testHost4Dbg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/bits/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/bits/bits.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/bits/test/show_all_jobs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/bits/test/test_bits.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/directsound/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/directsound/directsound.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/directsound/test/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/directsound/test/ds_record.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/directsound/test/ds_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/ifilter/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/ifilter/demo/filterDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/ifilter/ifilter.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/ifilter/ifiltercon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/internet/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/internet/inetcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/internet/internet.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/demos/mapisend.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/emsabtags.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/mapi.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/mapitags.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/mapi/mapiutil.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/propsys/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/propsys/propsys.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/propsys/pscon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/propsys/test/testpropsys.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/IActiveDesktop.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/IFileOperationProgressSink.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/IShellLinkDataList.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/ITransferAdviseSink.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/IUniformResourceLocator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/browse_for_folder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/create_link.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/dump_link.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/explorer_browser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/column_provider.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/context_menu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/copy_hook.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/empty_volume_cache.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/folder_view.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/icon_handler.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/servers/shell_view.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/shellexecuteex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/viewstate.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/demos/walk_shell_folders.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/shell.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/shellcon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/test/testSHFileOperation.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/test/testShellFolder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/shell/test/testShellItem.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/taskscheduler.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/test/test_addtask.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/test/test_addtask_1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/test/test_addtask_2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/win32comext/taskscheduler/test/test_localsystem.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/winreg/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xmlrpc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xmlrpc/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xmlrpc/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/futurize.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/macho_dump.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/macho_find.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/macho_standalone.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pasteurize.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyi-archive_viewer.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyi-bindepend.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyi-grab_version.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyi-makespec.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyi-set_version.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pyinstaller.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pywin32_postinstall.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Scripts/pywin32_testall.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clientUI.spec" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/logo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/serverUI.spec" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/clientUI.py" afterPath="$PROJECT_DIR$/clientUI.py" />
       <change beforePath="$PROJECT_DIR$/serverUI.py" afterPath="$PROJECT_DIR$/serverUI.py" />
@@ -1345,13 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="serverUI.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serverUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="695">
+              <caret line="118" column="3" lean-forward="false" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
               <folding>
-                <element signature="e#52#73#0" expanded="true" />
+                <element signature="e#52#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1360,8 +34,30 @@
       <file leaf-file-name="clientUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="375" column="32" lean-forward="false" selection-start-line="375" selection-start-column="32" selection-end-line="375" selection-end-column="32" />
+            <state relative-caret-position="460">
+              <caret line="380" column="24" lean-forward="false" selection-start-line="380" selection-start-column="24" selection-end-line="380" selection-end-column="24" />
+              <folding>
+                <element signature="e#52#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11584">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1411,30 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styleable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/openpyxl/styles/styleable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3102">
-              <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workbook.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/openpyxl/workbook/workbook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2706">
-              <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fileSupport.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileSupport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
+            <state relative-caret-position="1355">
               <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
               <folding>
                 <element signature="e#52#61#0" expanded="true" />
@@ -1531,8 +207,10 @@
         <option value="$PROJECT_DIR$/fileSupport.py" />
         <option value="$PROJECT_DIR$/support.py" />
         <option value="$PROJECT_DIR$/excelDealer.py" />
-        <option value="$PROJECT_DIR$/clientUI.py" />
+        <option value="$PROJECT_DIR$/icon.py" />
+        <option value="$PROJECT_DIR$/create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py" />
         <option value="$PROJECT_DIR$/serverUI.py" />
+        <option value="$PROJECT_DIR$/clientUI.py" />
       </list>
     </option>
   </component>
@@ -1792,21 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1522521707558</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.set window ico">
+      <created>1522523444668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522523444668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24170616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3224" sideWeight="0.5031596" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104" sideWeight="0.49684045" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104" sideWeight="0.49684045" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1814,7 +499,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1890,23 +574,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-114783057/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleThreadPool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#64#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2673">
@@ -1932,7 +599,7 @@
         <state relative-caret-position="693">
           <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
-            <element signature="e#52#73#0" expanded="true" />
+            <element signature="e#52#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1987,7 +654,7 @@
         <state relative-caret-position="1386">
           <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
           <folding>
-            <element signature="e#52#73#0" expanded="true" />
+            <element signature="e#52#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2027,7 +694,7 @@
         <state relative-caret-position="825">
           <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
-            <element signature="e#52#73#0" expanded="true" />
+            <element signature="e#52#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2074,7 +741,7 @@
         <state relative-caret-position="2013">
           <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
           <folding>
-            <element signature="e#52#73#0" expanded="true" />
+            <element signature="e#52#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2125,6 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="248" column="11" lean-forward="false" selection-start-line="248" selection-start-column="4" selection-end-line="248" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2239,7 +907,7 @@
         <state relative-caret-position="2475">
           <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="22" />
           <folding>
-            <element signature="e#52#77#0" expanded="true" />
+            <element signature="e#52#77#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2276,16 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileSupport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="e#52#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
@@ -2314,21 +972,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientUI.py">
+    <entry file="file://$PROJECT_DIR$/fileSupport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="375" column="32" lean-forward="false" selection-start-line="375" selection-start-column="32" selection-end-line="375" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="1355">
+          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serverUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="695">
+          <caret line="118" column="3" lean-forward="false" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
           <folding>
-            <element signature="e#52#73#0" expanded="true" />
+            <element signature="e#52#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="380" column="24" lean-forward="false" selection-start-line="380" selection-start-column="24" selection-end-line="380" selection-end-column="24" />
+          <folding>
+            <element signature="e#52#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11584">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_icon_py_file_for_resolve_pyinstaller_ioc_cant_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
