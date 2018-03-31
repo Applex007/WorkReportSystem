@@ -8,7 +8,7 @@ import time as timer
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-DEBUG = True
+DEBUG = False
 
 
 def print_log(*args):

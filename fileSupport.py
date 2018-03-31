@@ -4,7 +4,7 @@
 
 import os
 from threading import Lock
-from support import print_log
+from support import *
 
 _mutex = Lock()
 

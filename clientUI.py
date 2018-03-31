@@ -46,14 +46,14 @@ def _load_report_form_file():
     report = read_report_from_file()
     print_log("read_report_from_file: report=", report)
     info = get_info_from_report(report)
-    report_plan = get_plan_from_info(info)
-    report_result = get_result_from_info(info)
-    if report_plan:
+    info_plan = get_plan_from_info(info)
+    info_result = get_result_from_info(info)
+    if info_plan:
         _infoText21.delete(1.0, END)
-        _infoText21.insert(END, report_plan)
-    if report_result:
+        _infoText21.insert(END, info_plan)
+    if info_result:
         _infoText22.delete(1.0, END)
-        _infoText22.insert(END, report_result)
+        _infoText22.insert(END, info_result)
 
 
 def _check_report():
@@ -80,7 +80,7 @@ def _send_report():
     global _client
     if _client.connect(server_ip):
         if _client.send_data(report):
-            client.destroy()
+            _client.destroy()
             return True
     return False
 

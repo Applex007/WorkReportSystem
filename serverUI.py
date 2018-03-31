@@ -9,6 +9,7 @@ from ScrolledText import ScrolledText
 from server import *
 from support import *
 from serverInfoDealer import *
+from excelDealer import handle_report_and_create_excel
 
 STR_SERVER_START = "点击启动服务"
 STR_SERVER_STOP = "点击终止服务"
@@ -93,6 +94,11 @@ def _call_func(option=None, args=()):
 def _handle_receive_message(address, message):
     handle_message(server_callback, address, message)
 
+
+def _create_reports_to_excel():
+    handle_report_and_create_excel(server_callback)
+
+
 def _exit_out():
     global _root
     _stop_server_thread()
@@ -122,6 +128,9 @@ if __name__ == '__main__':
 
     _infoText = ScrolledText(_root, bg='white', width=100, height=30, state=DISABLED)
     _infoText.grid(row=1, columnspan=2, padx=10, pady=10)
+
+    _create_excel_Button = Button(_root, text="一键导出日报Excel", command=_create_reports_to_excel)
+    _create_excel_Button.grid(rowspan=2, column=1, padx=20, pady=20, sticky=NE)
 
     _server = Server(server_callback)
     _start_server_thread()
