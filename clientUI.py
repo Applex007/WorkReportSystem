@@ -6,24 +6,91 @@ from Tkinter import *
 from tkMessageBox import *
 from client import *
 from ScrolledText import ScrolledText
-from support import *
+from clientInfoDealer import *
 
 
 def _submit_button_clicked():
-    pass
+    print_log("submit_button_clicked")
+    if _check_report():
+        _send_report()
 
 
-def _send_user_info():
-    info = {
-        "name": _get_user_name(),
-        "work_id": _get_user_work_id(),
-        "host_ip": _get_server_host_ip(),
-    }
-    global client
-    if client.connect():
-        if client.send_data(info):
+def _save_user_button_clicked():
+    if _check_user_name() \
+            and _check_user_id() \
+            and _check_user_server_ip():
+        user = set_user(
+            user_name=_get_user_name(),
+            user_id=_get_user_id(),
+            user_server_ip=_get_user_server_ip()
+        )
+        save_user_to_file(user)
+
+
+def _load_user_form_file():
+    user = read_user_from_file()
+    user_name = get_name_from_user(user)
+    user_id = get_id_from_user(user)
+    user_server_ip = get_server_ip_from_user(user)
+    if user_name:
+        _infoEntry11.delete(0, END)
+        _infoEntry11.insert(END, user_name)
+    if user_id:
+        _infoEntry12.delete(0, END)
+        _infoEntry12.insert(END, user_id)
+    if user_server_ip:
+        _set_server_host_ip(user_server_ip)
+
+
+def _load_report_form_file():
+    report = read_report_from_file()
+    print_log("read_report_from_file: report=", report)
+    info = get_info_from_report(report)
+    report_plan = get_plan_from_info(info)
+    report_result = get_result_from_info(info)
+    if report_plan:
+        _infoText21.delete(1.0, END)
+        _infoText21.insert(END, report_plan)
+    if report_result:
+        _infoText22.delete(1.0, END)
+        _infoText22.insert(END, report_result)
+
+
+def _check_report():
+    return _check_user_id() \
+           and _check_user_name() \
+           and _check_user_server_ip() \
+           and _check_info_plan() \
+           and _check_info_result()
+
+
+def _send_report():
+    server_ip = _get_user_server_ip()
+    report = set_report(
+        set_user(_get_user_name(),
+                 _get_user_id(),
+                 server_ip
+                 ),
+        set_info(get_date_time()[0],
+                 _get_info_plan(),
+                 _get_info_result()
+                 ),
+    )
+    save_report_to_file(report)
+    global _client
+    if _client.connect(server_ip):
+        if _client.send_data(report):
+            client.destroy()
             return True
     return False
+
+
+def _check_user_name():
+    if _get_user_name():
+        return True
+    else:
+        _show_alert("提示", "请输入用户名！")
+        return False
 
 
 def _get_user_name():
@@ -31,9 +98,51 @@ def _get_user_name():
     return _infoEntry11.get()
 
 
-def _get_user_work_id():
+def _check_user_id():
+    if _get_user_id():
+        return True
+    else:
+        _show_alert("提示", "请输入ID！")
+        return False
+
+
+def _get_user_id():
     global _infoEntry12
     return _infoEntry12.get()
+
+
+def _check_user_server_ip():
+    if not _get_user_server_ip():
+        _show_alert("提示", "服务端ip未配置，将默认使用本机ip！")
+    return True
+
+
+def _get_user_server_ip():
+    return _get_server_host_ip()
+
+
+def _check_info_plan():
+    if _get_info_plan():
+        return True
+    else:
+        _show_alert("提示", "请输入计划日报！")
+
+
+def _get_info_plan():
+    global _infoText21
+    return _infoText21.get(0.0, END)
+
+
+def _check_info_result():
+    if _get_info_result():
+        return True
+    else:
+        _show_alert("提示", "请输入结果日报！")
+
+
+def _get_info_result():
+    global _infoText22
+    return _infoText22.get(0.0, END)
 
 
 def _get_server_host_ip():
@@ -49,28 +158,44 @@ def _get_server_host_ip():
     else:
         return None
     if v2:
-        ip = ip + str(v2)
+        ip = ip + "." + str(v2)
     else:
         return None
     if v3:
-        ip = ip + str(v3)
+        ip = ip + "." + str(v3)
     else:
         return None
     if v4:
-        ip = ip + str(v4)
+        ip = ip + "." + str(v4)
     else:
         return None
     return ip
 
 
+def _set_server_host_ip(host_ip):
+    if host_ip:
+        ip_values_list = host_ip.split(".")
+        if len(ip_values_list) == 4:
+            _infoEntry131.delete(0, END)
+            _infoEntry132.delete(0, END)
+            _infoEntry133.delete(0, END)
+            _infoEntry134.delete(0, END)
+            _infoEntry131.insert(END, ip_values_list[0])
+            _infoEntry132.insert(END, ip_values_list[1])
+            _infoEntry133.insert(END, ip_values_list[2])
+            _infoEntry134.insert(END, ip_values_list[3])
+
+
 def client_callback(*args):
-    print_log("clientUI: callback", args)
+    if not args:
+        print_log("clientUI: callback do noting", args)
+        return None
     if args[0] == "message":
         return _show_message(message=args[1])
     elif args[0] == "alert":
         return _show_alert(head=args[1], meg=args[2])
     elif args[0] == "option":
-        return _call_func(option=args[1], args=args[2])
+        return _call_func(option=args[1], args=args[2:len(args)])
     return None
 
 
@@ -123,7 +248,8 @@ def _handle_input_work_id(content, reason, widget):
     print_log("_handle_input_work_id: "
               "content=%s reason=%s widget=%s"
               % (content, reason, widget))
-    return check_chines(content)
+    return len(content) < 10 \
+           and (not check_chines(content))
 
 
 def _handle_input_ip_box(content, reason, widget):
@@ -176,16 +302,19 @@ def _handel_key_ip_box(event):
         if event.widget is _infoEntry131:
             if var == "":
                 _infoEntry132.focus_set()
+                _infoEntry132.icursor(0)
                 return True
             return False
         if event.widget is _infoEntry132:
             if var == "":
                 _infoEntry133.focus_set()
+                _infoEntry133.icursor(0)
                 return True
             return False
         if event.widget is _infoEntry133:
             if var == "":
                 _infoEntry134.focus_set()
+                _infoEntry134.icursor(0)
                 return True
             return False
         if event.widget is _infoEntry134:
@@ -232,7 +361,12 @@ def _handel_key_ip_box(event):
             return False
         if event.widget is _infoEntry134:
             return False
-
+    elif event.keysym == "Home":
+        _infoEntry131.focus_set()
+        _infoEntry131.icursor(0)
+    elif event.keysym == "End":
+        _infoEntry134.focus_set()
+        _infoEntry134.icursor(0)
 
 if __name__ == '__main__':
     _root = Tk()
@@ -268,7 +402,7 @@ if __name__ == '__main__':
                          validatecommand=(_check_input, '%P', '%v', '%W'))
     _infoEntry12.pack(side=LEFT, padx=10, pady=10)
 
-    _infoLabel13 = Label(_infoFrame1, text="IP：", font=font_fs(size=12))
+    _infoLabel13 = Label(_infoFrame1, text="目标IP：", font=font_fs(size=12))
     _infoLabel13.pack(side=LEFT, padx=10, pady=10)
     # ---box1---
     v131 = StringVar()
@@ -308,7 +442,7 @@ if __name__ == '__main__':
     _infoEntry134.pack(side=LEFT, pady=10)
     _infoEntry134.bind("<Key>", _handel_key_ip_box)
 
-    _infoButton11 = Button(_infoFrame1, text="保存信息", width=10)
+    _infoButton11 = Button(_infoFrame1, text="保存信息", width=10, command=_save_user_button_clicked)
     _infoButton11.pack(side=LEFT, padx=20, pady=10)
 
     # _infoEntry14 = Entry(_infoFrame1, width=10, font=font_yh(size=12))
@@ -333,11 +467,13 @@ if __name__ == '__main__':
     _infoLabel221 = Label(_infoFrame22, text="总结日报:", font=font_yh(size=12))
     _infoLabel221.pack(side=LEFT, pady=10)
 
-    _infoText21 = ScrolledText(_infoFrame2, bg="white", height=12, undo=True, font=font_fs(size=14))
-    _infoText21.pack(fill=X)
+    _infoText22 = ScrolledText(_infoFrame2, bg="white", height=12, undo=True, font=font_fs(size=14))
+    _infoText22.pack(fill=X)
 
-    _submitButton = Button(_root, text="提交", width=10)
+    _submitButton = Button(_root, text="提交到服务器", width=10, command=_submit_button_clicked)
     _submitButton.pack(side=RIGHT, padx=20)
 
-    client = Client(client_callback)
+    _load_user_form_file()
+    _load_report_form_file()
+    _client = Client(callback=client_callback)
     _root.mainloop()

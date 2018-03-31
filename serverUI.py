@@ -5,12 +5,14 @@
 from Tkinter import *
 from ttk import *
 from tkMessageBox import *
-from server import *
 from ScrolledText import ScrolledText
+from server import *
 from support import *
+from serverInfoDealer import *
 
 STR_SERVER_START = "点击启动服务"
 STR_SERVER_STOP = "点击终止服务"
+
 
 def _server_button_clicked():
     global _buttonState
@@ -43,13 +45,17 @@ def _stop_server_thread():
 
 
 def server_callback(*args):
-    print_log("serverUI: callback", args)
+    if not args:
+        print_log("serverUI: callback do noting", args)
+        return None
     if args[0] == "message":
         return _show_message(message=args[1])
     elif args[0] == "alert":
         return _show_alert(head=args[1], meg=args[2])
     elif args[0] == "option":
-        return _call_func(option=args[1], args=args[2])
+        cargs = args[2:len(args)]
+        print_log("args:", args, "cargs:", cargs)
+        return _call_func(option=args[1], args=args[2:len(args)])
     return None
 
 
@@ -66,7 +72,7 @@ def _show_alert(head=None, meg=None):
     return showwarning(title=head, message=meg)
 
 
-def _show_address(ip=None, port=None):
+def _show_address(ip, port=None):
     address = None
     if ip:
         address = "IP: %s" % ip
@@ -79,8 +85,13 @@ def _call_func(option=None, args=()):
     if option == "exit":
         _exit_out()
     elif option == "show_ip":
-        _show_address(ip=args[0], port=args[1])
+        _show_address(*args)
+    elif option == "handle_message":
+        _handle_receive_message(*args)
 
+
+def _handle_receive_message(address, message):
+    handle_message(server_callback, address, message)
 
 def _exit_out():
     global _root

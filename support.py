@@ -2,10 +2,11 @@
 # @auth: applex
 # @date: 2018-03-28
 import sys
+import json
 import time as timer
 
 reload(sys)
-# sys.setdefaultencoding("utf-8")
+sys.setdefaultencoding('utf-8')
 
 DEBUG = True
 
@@ -18,17 +19,38 @@ def print_log(*args):
 
 def _get_str(arg):
     str = ""
-    if type(arg) == list \
-            or type(arg) == tuple \
-            or type(arg) == set:
+    if type(arg) == tuple:
+        str = str + "("
         for carg in arg:
             str = str + _get_str(carg)
+        str = str + ")"
+    elif type(arg) == list:
+        str = str + "list["
+        for carg in arg:
+            str = str + _get_str(carg)
+        str = str + "]"
+    elif type(arg) == set:
+        str = str + "set["
+        for carg in arg:
+            str = str + _get_str(carg)
+        str = str + "]"
     elif type(arg) == dict:
+        str = str + "{"
         for key in arg:
-            str = "%s" % key + ":" + _get_str(arg[key])
+            str = str + "%s" % key + ":" + _get_str(arg[key]) + ","
+        str = str + "}"
     elif arg:
         str = str + "%s " % arg
     return str
+
+
+def json_encode(obj):
+    return json.dumps(obj)
+
+
+def json_decode(str):
+    str = unicode(str, errors='ignore')
+    return json.loads(str)
 
 
 def get_screen_size(window):
@@ -62,7 +84,7 @@ def font(typeface="宋体", size=10, style="normal"):
 def get_date_time():
     local = timer.localtime(timer.time())
     date = timer.strftime("%Y-%m-%d", local)
-    time = timer.strftime("%H-%M-%S", local)
+    time = timer.strftime("%H:%M:%S", local)
     return date, time
 
 
