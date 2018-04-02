@@ -14,6 +14,7 @@ def save_file(file_path, file_name, content):
         os.makedirs(file_path, 0666)
         print_log("save_file:", "make dir file_path")
     res = False
+    f = None
     try:
         _mutex.acquire()
         f = open(file_path+"/"+file_name, "w")
@@ -33,6 +34,7 @@ def read_file(file_path, file_name):
     if not os.path.isdir(file_path):
         print_log("read file:", "file_path is not dir")
         return res
+    f = None
     try:
         f = open(file_path+"/"+file_name, "r")
         res = f.read()
@@ -48,6 +50,7 @@ def read_file(file_path, file_name):
 def remove_file(file_path, file_name):
     global _mutex
     res = False
+    f = None
     try:
         _mutex.acquire()
         os.remove(file_path+"/"+file_name)

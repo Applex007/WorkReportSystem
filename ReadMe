@@ -1,0 +1,4 @@
+#打包步骤：
+1.系统全局 python 或 vituralenv 环境下安装 pyinstall；
+2.Terminal 进入 pyinstaller.exe 所在目录， 或定位到想要的目录，并在下面命令中输入完整路径下的pyinstaller；
+3.执行 python pyinstaller.exe -w/c -F xxxx.py，其中-w只生成窗口应用，-c生成带命令窗口的应用
